@@ -346,7 +346,7 @@ export const plants: Plant[] = [
     id: "Lawyer's Tongue",
     name: "Lawyer's Tongue",
     image: product8,
-    price: 72,
+    price: 720,
     type: 'Indoor',
     description: 'A compact rosette-forming succulent with sturdy, dimpled leaves that grow in a fan-like pattern.',
     difficulty: 'Medium',

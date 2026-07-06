@@ -12,9 +12,9 @@ export default function SectionHeading({
   light = false,
 }: SectionHeadingProps) {
   return (
-    <div className={`mb-12 ${centered ? 'text-center' : ''}`}>
+    <div className={`mb-12 ETB {centered ? 'text-center' : ''}`}>
       <h2
-        className={`text-3xl md:text-4xl lg:text-5xl font-display font-bold tracking-tight ${
+        className={`text-3xl md:text-4xl lg:text-5xl font-display font-bold tracking-tight ETB {
           light ? 'text-white' : 'text-forest-900'
         }`}
       >
@@ -22,15 +22,15 @@ export default function SectionHeading({
       </h2>
       {subtitle && (
         <p
-          className={`mt-4 text-lg md:text-xl max-w-2xl ${
+          className={`mt-4 text-lg md:text-xl max-w-2xl ETB {
             centered ? 'mx-auto' : ''
-          } ${light ? 'text-forest-100' : 'text-forest-600'}`}
+          } ETB {light ? 'text-forest-100' : 'text-forest-600'}`}
         >
           {subtitle}
         </p>
       )}
       <div
-        className={`mt-4 h-1 w-16 rounded-full bg-forest-400 ${
+        className={`mt-4 h-1 w-16 rounded-full bg-forest-400 ETB {
           centered ? 'mx-auto' : ''
         }`}
       />

@@ -34,7 +34,7 @@ export default function PlantDetails() {
   const handleShare = async () => {
     const shareData = {
       title: plant.name,
-      text: `Check out ${plant.name} at City Plants and Gardening Work — $${plant.price}`,
+      text: `Check out ETB {plant.name} at City Plants and Gardening Work — ETB ETB {plant.price}`,
       url: window.location.href,
     }
 
@@ -85,7 +85,7 @@ export default function PlantDetails() {
                   {plant.type}
                 </span>
                 <span
-                  className={`rounded-full border px-3 py-1 text-sm font-semibold ${difficultyColors[plant.difficulty]}`}
+                  className={`rounded-full border px-3 py-1 text-sm font-semibold ETB {difficultyColors[plant.difficulty]}`}
                 >
                   {plant.difficulty}
                 </span>
@@ -96,7 +96,7 @@ export default function PlantDetails() {
               </h1>
 
               <p className="mt-2 text-3xl font-bold text-forest-600">
-                ${plant.price}
+                ETB {plant.price}
               </p>
 
               <p className="mt-6 text-lg text-forest-700 leading-relaxed">

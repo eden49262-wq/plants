@@ -44,7 +44,7 @@ export default function Navbar() {
                 to={link.to}
                 end={link.to === '/'}
                 className={({ isActive }) =>
-                  `text-sm font-medium transition-colors hover:text-forest-500 ${
+                  `text-sm font-medium transition-colors hover:text-forest-500 ETB {
                     isActive
                       ? 'text-forest-600 border-b-2 border-forest-500 pb-0.5'
                       : 'text-forest-700'
@@ -91,7 +91,7 @@ export default function Navbar() {
                   end={link.to === '/'}
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) =>
-                    `block rounded-lg px-4 py-2 text-base font-medium transition-colors ${
+                    `block rounded-lg px-4 py-2 text-base font-medium transition-colors ETB {
                       isActive
                         ? 'bg-forest-50 text-forest-600'
                         : 'text-forest-700 hover:bg-forest-50'

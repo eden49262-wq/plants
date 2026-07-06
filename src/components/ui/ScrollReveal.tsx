@@ -34,13 +34,13 @@ export default function ScrollReveal({
     return () => observer.disconnect()
   }, [])
 
-  const animationClass = isVisible ? `animate-${animation}` : 'opacity-0-start'
+  const animationClass = isVisible ? `animate-ETB {animation}` : 'opacity-0-start'
 
   return (
     <div
       ref={ref}
-      className={`${animationClass} ${className}`}
-      style={{ animationDelay: `${delay}ms` }}
+      className={`ETB {animationClass} ETB {className}`}
+      style={{ animationDelay: `ETB {delay}ms` }}
     >
       {children}
     </div>

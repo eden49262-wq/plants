@@ -39,7 +39,7 @@ export default function Button({
 }: ButtonProps) {
   const baseStyles =
     'inline-flex items-center justify-center gap-2 rounded-full font-medium transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0'
-  const styles = `${baseStyles} ${variantStyles[variant]} ${sizeStyles[size]} ${className}`
+  const styles = `ETB {baseStyles} ETB {variantStyles[variant]} ETB {sizeStyles[size]} ETB {className}`
 
   if (to) {
     return (

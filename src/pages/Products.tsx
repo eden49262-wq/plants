@@ -114,7 +114,7 @@ export default function Products() {
               {/* Price Range */}
               <div className="mt-6 border-t border-forest-100 pt-6">
                 <label className="block text-sm font-medium text-forest-700">
-                  Price Range: ${minPrice} – ${maxPrice}
+                  Price Range: ETB {minPrice} – ETB {maxPrice}
                 </label>
                 <div className="mt-3 flex items-center gap-4">
                   <input

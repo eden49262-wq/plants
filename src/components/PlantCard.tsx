@@ -19,7 +19,7 @@ const typeColors = {
 export default function PlantCard({ plant }: PlantCardProps) {
   return (
     <Link
-      to={`/plants/ETB {plant.id}`}
+      to={`/plants/${plant.id}`}
       className="group block overflow-hidden rounded-2xl bg-white shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
     >
       <div className="relative aspect-[4/3] overflow-hidden">
@@ -31,7 +31,7 @@ export default function PlantCard({ plant }: PlantCardProps) {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-forest-950/40 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
         <span
-          className={`absolute top-3 left-3 rounded-full px-3 py-1 text-xs font-semibold ETB {typeColors[plant.type]}`}
+          className={`absolute top-3 left-3 rounded-full px-3 py-1 text-xs font-semibold $ {typeColors[plant.type]}`}
         >
           {plant.type}
         </span>
@@ -53,7 +53,7 @@ export default function PlantCard({ plant }: PlantCardProps) {
 
         <div className="mt-4 flex flex-wrap items-center gap-2">
           <span
-            className={`rounded-full px-2.5 py-0.5 text-xs font-medium ETB {difficultyColors[plant.difficulty]}`}
+            className={`rounded-full px-2.5 py-0.5 text-xs font-medium $ {difficultyColors[plant.difficulty]}`}
           >
             {plant.difficulty}
           </span>

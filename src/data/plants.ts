@@ -380,7 +380,7 @@ export const plants: Plant[] = [
     id: 'Lace Aloe (Aristaloe aristata - Top-down view)',
     name: 'Lace Aloe (Aristaloe aristata - Top-down view)',
     image: product10,
-    price: 15,
+    price: 699,
     type: 'Indoor',
     description: 'A top-down view of the compact, geometric rosette showing its intricate patterns and white-toothed leaf edges.',
     difficulty: 'Easy',
